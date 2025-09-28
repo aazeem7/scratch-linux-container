@@ -1,0 +1,13 @@
+rootfs.tar.gz
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.log
+*.o
+*.out
+build/
+
+bash-5.2
+coreutils-9.3
+musl-1.2.4
+rootfs
