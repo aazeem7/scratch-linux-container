@@ -20,3 +20,14 @@ scratch-linux-container/
 ├── LICENSE            # MIT License
 ├── README.md          # This file
 ├── build.sh           # Build script (downloads, compiles, assembles rootfs)
+```
+## How to run the dev environment.
+
+### Start the local dev container for the build
+
+```text
+podman run -it --rm --name ubuntu1 -v .:/root/scratch-linux -w /root/scratch-linux ubuntu
+```
+and then
+
+> $ ./build.sh
